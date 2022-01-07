@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 35px;
+    color: white;
+    background: black;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail{
+    font-size: 25px;
+    color: white;
+}
+
+header{
+    height: 700px;
+    background: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 45px;
+    color: white;
+}
+
+.callme{
+    font-size: 24px;
+    color: black;
+    background: white;
+    padding: 20px 120px;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap:100px;
+}
+
+.about{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 30px;
+}
+.about p{
+    color: grey;
+    font-size: 22px ;
+    margin-bottom: 40px;
+}
+.about a{
+    font-size: 20px;
+    color: white;
+    background:black;
+    padding: 10px 60px;
+}
+.cards h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px; 
+}
+.card{
+    border: 5px black double ;
+    width:  300px;
+    padding: 15px ;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
+
+h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 24px;
+    color: grey;
+    margin: 20px 0;
+}
+.card a{
+    color: white;
+    background: black ;
+    font-size: 20px;
+    padding: 10px 60px;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom:50px;
+    
+}
+footer{
+    background: black;
+    padding: 30px 0 ;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
